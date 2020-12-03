@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8"/>
+      <title>Meu curriculo</title>
+  </head>
+  <body>
+      <!-- nome -->
+      <h1>Guilherme Antonio Lopes Luco</h1>
+      <!-- Texto de introdução -->
+       <img src="{{ url_for('static', filename='foto de perfil.jpg') }}" >
+      <h2>sobre mim</h2>
+      <p>oi,sou guilherme e a vida é bela</p>
+      <!-- Experiência Proficional -->
+      <h2>experiência proficional</h2>
+      <P>em busca de uma primeira oportunidade</P>
+      <!-- Formção -->
+      <h2>formação</h2>
+      <p>cursando quinto semestre de mecatrônica</p>
+      <!-- Habilidades e Competencias -->
+      <h2>habilidades e competências</h2>
+      <P>tenho um rapido raciocinio para matematica</P>
+      <P>trabalho bem em equipe</P>
+      <!-- Informações Adicinais -->
+      <h2>informações adicionais</h2>
+      <P>guithub: https://github.com/guilherme-lopes-luco</P>
+
+  </body>
+</html>
